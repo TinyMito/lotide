@@ -8,7 +8,7 @@ const assertEqual = function(actual, expected) {
 };
 
 const head = function(a) {
-  return a.slice(1);
+  return a[0];
 };
 
 // TEST CODE
