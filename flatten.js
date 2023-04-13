@@ -24,7 +24,7 @@ const flatten = function(inputArray) {
 
   // Test
   //console.log(inputArray[2][0])
-  //onsole.log(inputArray[2].length)
+  //console.log(inputArray[2].length)
   //console.log(Array.isArray(inputArray[1]))
   //console.log(Array.isArray(inputArray[2]))
 
