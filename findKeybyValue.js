@@ -1,8 +1,10 @@
 const findKeybyValue = function(getObject, searchValue) {
+  // Load all the keys value into var keys
+  const keys = Object.keys(getObject);
 
-  const keys = Object.keys(getObject); // Load all the keys value into var keys
   for (const key of keys) {
-    if (getObject[key] === searchValue) { // Index directly from 
+    if (getObject[key] === searchValue) { 
+      // If the key match searchValue as string
       return key;
     }
   }
