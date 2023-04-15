@@ -3,11 +3,11 @@ const findKeybyValue = function(getObject, searchValue) {
   const keys = Object.keys(getObject);
 
   for (const key of keys) {
-    if (getObject[key] === searchValue) { 
+    if (getObject[key] === searchValue) {
       // If the key match searchValue as string
       return key;
     }
   }
-}
+};
 
 module.exports = findKeybyValue;

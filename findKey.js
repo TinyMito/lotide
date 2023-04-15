@@ -8,6 +8,6 @@ const findKey = function(getObject, searchValue) {
       return key;
     }
   }
-}
+};
 
 module.exports = findKey;

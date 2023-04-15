@@ -1,6 +1,6 @@
 const countOnly = function(allItems, itemsToCount) {
   // Create new object to store the count of each element
-  const results = {}
+  const results = {};
 
   for (const item of allItems) {
     // Run this condition if the key is true
@@ -16,6 +16,6 @@ const countOnly = function(allItems, itemsToCount) {
   }
 
   return results;
-}
+};
 
 module.exports = countOnly;

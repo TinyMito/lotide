@@ -1,8 +1,8 @@
 const eqArrays = function(array1, array2) {
   if (array1.length !== array2.length) {
     // Return immediately false of array length not matched.
-    return false; 
-  };
+    return false;
+  }
 
   for (let i in array1) {
     // Condidion if the element is an Array itself
@@ -15,10 +15,10 @@ const eqArrays = function(array1, array2) {
       // Condition return false if the element doesn't match
       return false;
     }
-  };
+  }
 
-// If loop did not find any false then return true!
-return true; 
+  // If loop did not find any false then return true!
+  return true;
 };
 
 module.exports = eqArrays;
