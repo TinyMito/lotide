@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@tinymito/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "Lotide Library",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/TinyMito/lotide.git"
   },
-  "author": "",
+  "author": "Kevin Ip",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/TinyMito/lotide/issues"
