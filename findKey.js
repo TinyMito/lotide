@@ -3,8 +3,8 @@ const findKey = function(getObject, searchValue) {
   const keys = Object.keys(getObject);
 
   for (const key of keys) {
-    // If the key match searchValue, return true
     if (searchValue(getObject[key])) {
+      // If the key match searchValue, return true
       return key;
     }
   }
