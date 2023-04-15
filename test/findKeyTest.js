@@ -2,7 +2,7 @@ const assert = require('chai').assert;
 const findKey   = require('../findKey');
 
 describe("#findKey", () => {
-  it("returns 'noma'", () => {
+  it("Find the key with 2 stars, returns 'noma'", () => {
     assert.strictEqual(findKey({
       "Blue Hill": { stars: 1 },
       "Akaleri":   { stars: 3 },

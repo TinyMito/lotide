@@ -4,7 +4,7 @@ const without   = require('../without');
 const words = ["hello", "world", "lighthouse"];
 
 describe("#without", () => {
-  it(`returns ["hello", "world"]`, () => {
+  it(`Return without "lighthouse", returns ["hello", "world"]`, () => {
     assert.deepEqual(without(words, ["lighthouse"]), ["hello", "world"]);
   });
 });
