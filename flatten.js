@@ -1,6 +1,6 @@
 const flatten = function(inputArray) {
   // Create a new array to output
-  let newArray = [];
+  const newArray = [];
 
   for (let a = 0; a < inputArray.length; a++) {
     if (Array.isArray(inputArray[a])) {

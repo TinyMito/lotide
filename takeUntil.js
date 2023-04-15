@@ -1,5 +1,5 @@
 const takeUntil = function(array, callback) {
-  let takeArray = [];
+  const takeArray = [];
   for (const data of array) {
     if (callback(data)) {
       break; // Stop processing loop if true

@@ -1,6 +1,6 @@
 const without = function(inputArray, removeElement) {
   // To make sure it is non-destructive of the original array.
-  let newArray = [];
+  const newArray = [];
 
   for (let i = 0; i < inputArray.length; i++) {
     // A flag to prevent trigger removal function
