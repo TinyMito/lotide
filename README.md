@@ -1,1 +1,2 @@
-# Personal Lotide Library
+# Lotide
+A Lighthouse Labs Library
