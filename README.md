@@ -26,6 +26,15 @@ This project was created and published by me as part of my learnings at Lighthou
 
 The following functions are currently implemented:
 
-* `function1(...)`: description
-* `function2(...)`: description
-* `function3(...)`: description
+* `countLetters(...)`: This function should take in a sentence (as a string) and then return a count of each of the letters in that sentence. 
+* `countOnly(...)`: This function should take in a collection of items and return counts for a specific subset of those items.
+* `findKey(...)`: This function should scan the object and return the first key for which the callback returns a truthy value. 
+* `findKeybyValue(...)`: This function should scan the object and return the first key which contains the given value. 
+* `flatten(...)`: This function flatten an array with sub/multi level arrays into a single-level array.
+* `head(...)`: This function is to retrieve the first element from the array
+* `letterPositions(...)`: This function returns all the indices (zero-based positions) in the string where each character is found.
+* `map(...)`: This function returns a new array based on the results of the callback function.
+* `middle(...)`: This function returns the middle-most element(s) of the given array.
+* `tail(...)`: This function returns the "tail" of an array: everything except for the first item (head) of the provided array.
+* `takeUntil(...)`: This function keeps collecting items from a provided array until the callback provided returns a truthy value. 
+* `without(...)`: This function returns a subset of a given array, removing unwanted elements. 
