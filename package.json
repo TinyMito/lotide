@@ -1,8 +1,8 @@
 {
   "name": "@tinymito/lotide",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Lotide Library",
-  "main": "assertArraysEqual.js",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
