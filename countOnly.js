@@ -7,7 +7,6 @@ const countOnly = function(allItems, itemsToCount) {
     if (itemsToCount[item]) {
       // Condition check if the key existed in the result object,
       // if existed; +1 count and if not initial the first count 1
-      console.log(item)
       if (results[item]) {
         results[item] += 1;
       } else {
