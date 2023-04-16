@@ -19,6 +19,7 @@ const without             = require('./without');
 
 module.exports = {
   assertArraysEqual,
+  assertEqual,
   assertObjectsEqual,
   countLetters,
   countOnly,
