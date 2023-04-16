@@ -26,13 +26,13 @@ This project was created and published by me as part of my learnings at Lighthou
 
 The following functions are currently implemented:
 
-* `assertArraysEqual`: This function compares arrays, return true if matched.
-* `assertEqual`: This function compares variable, return true if matched.
-* `assertObjectsEqual`: This function compares objects, return true if matched.
+* `assertArraysEqual(...)`: This function compares arrays, return true if matched.
+* `assertEqual(...)`: This function compares variable, return true if matched.
+* `assertObjectsEqual(...)`: This function compares objects, return true if matched.
 * `countLetters(...)`: This function should take in a sentence (as a string) and then return a count of each of the letters in that sentence. 
 * `countOnly(...)`: This function should take in a collection of items and return counts for a specific subset of those items.
-* `eqArrays`: This function is a more complex for comparing arrays with sub arrays, return true if matched.
-* `eqObjects`: This function is a more complex for comparing objects with sub objects, return true if matched.
+* `eqArrays(...)`: This function is a more complex for comparing arrays with sub arrays, return true if matched.
+* `eqObjects(...)`: This function is a more complex for comparing objects with sub objects, return true if matched.
 * `findKey(...)`: This function should scan the object and return the first key for which the callback returns a truthy value. 
 * `findKeybyValue(...)`: This function should scan the object and return the first key which contains the given value. 
 * `flatten(...)`: This function flatten an array with sub/multi level arrays into a single-level array.
