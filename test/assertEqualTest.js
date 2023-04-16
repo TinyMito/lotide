@@ -1,7 +1,7 @@
 const assert = require('chai').assert;
 const assertEqual = require('../assertEqual');
 
-describe("assertEqual", () => {
+describe("#assertEqual", () => {
   it(`Compare "Lighthouse Labs", "Bootcamp", return false`, () => {
     assert.isFalse(assertEqual("Lighthouse Labs", "Bootcamp"));
   });
