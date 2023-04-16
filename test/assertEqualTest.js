@@ -1,8 +1,17 @@
+const assert = require('chai').assert;
 const assertEqual = require('../assertEqual');
-// TEST CODE
-assertEqual("Lighthouse Labs", "Bootcamp");
-assertEqual(1, 1);
-assertEqual("Kevin", "Bootcamp");
-assertEqual("Bootcamp", "Bootcamp");
-assertEqual("Kevin", "Kevin");
-assertEqual(1, 2);
+
+describe("assertEqual", () => {
+  it(`Compare "Lighthouse Labs", "Bootcamp", return false`, () => {
+    assert.isFalse(assertEqual("Lighthouse Labs", "Bootcamp"));
+  });
+  it(`Compare 1, 1, return true`, () => {
+    assert.isTrue(assertEqual(1, 1));
+  });
+  it(`Compare "Kevin", "Kevin", return false`, () => {
+    assert.isTrue(assertEqual("Kevin", "Kevin"));
+  });
+  it(`Compare 1, 2, return false`, () => {
+    assert.isFalse(assertEqual(1, 2));
+  });
+});
